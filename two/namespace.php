@@ -51,5 +51,11 @@ namespace FourProject{
      }
     echo getName("haha");
 }
+///使用命名空间 
+namespace foo{
+    echo "<h1>foo</h1>";
+    use FourProject as obj;
+    
 
+}
 ?>
