@@ -6,7 +6,7 @@ const CONNECT = 1;
 class Number{
     const num =  1;
      function test(){
-        echo "Number里d 函数";
+        echo "Number里的 函数";
     }
      
 };
@@ -41,7 +41,15 @@ namespace FourProject{
     strlen();
      echo \strlen('adfa');
      include 'example1.php';
-     echo constant('constname'), "\n"; 
+     echo constant('constname'), "<br>"; 
+     echo '"',__NAMESPACE__,'"';
+
+     //动态创建名称
+     function getName($classname){
+         $a = __NAMESPACE__.'=>'.$classname;
+         return $a;
+     }
+    echo getName("haha");
 }
 
 ?>
