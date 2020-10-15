@@ -32,3 +32,22 @@ while(!feof($file)){
 
 ///关闭打开的文件
 fclose($file);
+?>
+<?php
+///PHP session
+// PHPsession 变量用于存储关于用户会话的信息。或者更改用户会话的设置。
+// Session变量存储单一用户的信息，并且对于应用程序中的所有页面都是可用的
+// 工作机制是：为每一个访客创建一个唯一的ID。并基于这个UID来存储变量，UID存储在cookie中。或者通过URL进行传导。
+
+//启动会话
+session_start();
+
+// 存储session数据
+$_SERVER['views'] = 1;
+
+// 检索session数据
+echo $_SESSION['views'];
+
+// 销毁session
+unset($_SESSION('views'));
+session_destroy();
