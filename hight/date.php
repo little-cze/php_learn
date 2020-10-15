@@ -51,3 +51,5 @@ echo $_SESSION['views'];
 // 销毁session
 unset($_SESSION('views'));
 session_destroy();
+
+///mail()函数。。用于从脚本中发送电子邮件
