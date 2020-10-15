@@ -95,9 +95,7 @@ $a = array(
         
         interface B{
             const strb = "接口B中的常量strb";
-            public $public = "public";
-            protected $protected = "protected";
-            private $private = "private";
+            
            public function b();
         }
         echo B::strb;
@@ -108,6 +106,8 @@ $a = array(
         interface D extends B,C {
             function d();
         }
+
+        ///类中必须实现接口中定义的所有方法，否则会报一个致命错误。
         class A implements D{
             function b(){
                 echo "<br>A重写了B类中的b方法<br>";
@@ -130,4 +130,75 @@ $a = array(
         
         foreach($list as $a)
             echo "$a";
+    ?>
+
+    <?php
+        ///抽象类 abstract 
+        //定义为抽象的类不能被实例化。继承一个抽象类的时候，自雷必须定义父类中所有抽象方法，另外，这些方法的访问控制必须和父类中一样。或者更宽松。。
+
+        abstract class AbstractClass{
+
+            function __construct(){
+                echo "<br>===>>父类的构造方法<br>";
+            }
+
+            ///强制子类要定义这些方法
+            abstract protected function abstractFun();
+
+            //普通 方法
+            public function narmalFun(){
+                echo "普通方法1";
+            }
+            public function narmalFun2(){
+                echo "普通方法2";
+            }
+        }
+
+        class CreateClass extends AbstractClass{
+
+            // PHP在子类要执行父类的构造方法，需要在子类的构造方法中调用parent::__construct();
+            function __construct(){
+                parent::__construct();
+                echo "===>>子类的构造方法";
+            }
+
+            ///static关键字。。可以不实例化而直接访问
+            public static $one_static = "foo";
+
+            function abstractFun($name = "."){
+                echo "可以增加父类没有的可选参数$name";
+                echo "实现了继承的抽象类中的抽象方法".$name;
+            }
+            function narmalFun(){
+                echo "重写了抽象类中的普通方法";
+            }
+            final public static function test(){
+                echo "用final修饰的方法。不能被覆盖";
+            }
+        }
+        final class FinalClass{
+            function finalfun(){
+                echo "用final修饰的类的方法";
+            }
+        }
+
+        // class ExtendsFinalClass extends FinalClass{
+            // echo "用final修饰的类不能被继承";
+        // }
+        /// 没有实例化直接访问
+        echo CreateClass::$one_static . PHP_EOL;
+
+        $a = new CreateClass();
+        echo "<br>";
+        $a::narmalFun();
+        echo "<br>";
+        $a->narmalFun2();
+        echo "<br>";
+        $a->abstractFun();
+        echo "<br>";
+        ///final关键字 如果父类方法生命为final。则子类无法覆盖改方法，如果一个类声明为final，则不能被继承
+
+        
+
+    
     ?>
