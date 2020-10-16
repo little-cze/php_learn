@@ -20,7 +20,7 @@ if($result->num_rows>0){
     while ($row = $result->fetch_assoc()){
         $data = "id:" . $row["id"] . "-Name:" . $row["firstname"] . $row["lastname"]."\n";
         fwrite($file,$data);
-        echo "id:" . $row["id"] . "-Name:" . $row["firstname"] . $row["lastname"] . "<br>";
+        echo "id:" . $row["id"] . "-Name:" . $row["firstname"] . $row["lastname"] . $row['email']."<br>";
     }
     fclose($file);
 }else{

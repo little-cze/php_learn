@@ -11,7 +11,7 @@ if(mysqli_connect_error()){
 }
 
  ///创建表
- $tab = "create table mytable(
+ $tab = "create table MyTable(
     id int(5) unsigned auto_increment primary key,
     firstname varchar(20) not null,
     lastname varchar(20) not null,

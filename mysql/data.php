@@ -1,4 +1,7 @@
 <?php
+    $name = $_POST['fname'];
+    $lastname = $_POST['lastname'];
+    $email = $_POST['email'];
     ///插入数据
     $servername = "localhost";
     $username = "root";
@@ -11,7 +14,7 @@
         die("连接失败" . mysqli_connect_error());
     }
     $sql = "insert into mytable(firstname,lastname,email)
-    values($_POST['fname'],$_POST['age'],'mikeD@example.com')";
+    values('$name','$lastname','$email')";
 
     if($conn->query($sql) === TRUE){
         echo "插入成功";
