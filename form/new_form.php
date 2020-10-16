@@ -90,20 +90,32 @@ values('firstname','last','e')";
 <h2>PHP 表单验证实例</h2>
 <p><span class="error">* 必填字段。</span></p>
 <form method="post" action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']); ?>">
-    名字: <input type="text" name="name">
+    名字: <label>
+        <input type="text" name="name">
+    </label>
     <span class="error">* <?php echo $nameErr; ?></span>
     <br><br>
-    E-mail: <input type="text" name="email">
+    E-mail: <label>
+        <input type="text" name="email">
+    </label>
     <span class="error">* <?php echo $emailErr; ?></span>
     <br><br>
-    网址: <input type="text" name="website">
+    网址: <label>
+        <input type="text" name="website">
+    </label>
     <span class="error"><?php echo $websiteErr; ?></span>
     <br><br>
-    备注: <textarea name="comment" rows="5" cols="40"><?php echo $comment; ?></textarea>
+    备注: <label>
+        <textarea name="comment" rows="5" cols="40"><?php echo $comment; ?></textarea>
+    </label>
     <br><br>
     性别:
-    <input type="radio" name="gender" value="female">女
-    <input type="radio" name="gender" value="male">男
+    <label>
+        <input type="radio" name="gender" value="female">
+    </label>女
+    <label>
+        <input type="radio" name="gender" value="male">
+    </label>男
     <span class="error">* <?php echo $genderErr; ?></span>
     <br><br>
     <input type="submit" name="submit" value="Submit">
