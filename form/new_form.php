@@ -15,7 +15,7 @@
 // 定义变量并默认设为空值
 $nameErr = $emailErr = $genderErr = $websiteErr = "";
 $name = $email = $gender = $comment = $website = "";
-
+$dataname = $dataemil = "";
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     if (empty($_POST["name"])) {
         $nameErr = "名字是必须的。";
@@ -23,6 +23,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $nameErr = "只允许字母和空格";
     } else {
         $name = test_input($_POST["name"]);
+        $dataname = $name;
     }
     if (empty($_POST["email"])) {
         $emailErr = "邮箱是必须的。";
@@ -30,6 +31,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $emailErr = "非法邮箱格式";
     } else {
         $email = test_input($_POST["email"]);
+        $dataemil = $email;
     }
 
     if (empty($_POST["website"])) {
@@ -45,12 +47,14 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     } else {
         $comment = test_input($_POST["comment"]);
     }
-
     if (empty($_POST["gender"])) {
         $genderErr = "性别是必须的。";
     } else {
         $gender = test_input($_POST["gender"]);
     }
+}
+function dd(){
+
 }
 
 function test_input($data)
@@ -61,7 +65,7 @@ function test_input($data)
     return $data;
 }
 
-function post_base()
+function post_base($firstname,$email)
 {
 //连接数据库
     $servername = "localhost";
@@ -74,7 +78,7 @@ function post_base()
         die ("连接出错啦" . mysqli_connect_error());
     }
     $sql = "insert into mytable(firstname,lastname,email)
-values('firstname','last','e')";
+values('$firstname','last','$email')";
 
     if ($conn->query($sql) === TRUE) {
         echo "插入成功";
