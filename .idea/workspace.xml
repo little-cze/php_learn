@@ -23,15 +23,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="21e445bd-4e26-415b-ae81-4128bf05bd68" name="Default Changelist" comment="mysqli">
-      <change afterPath="$PROJECT_DIR$/mysql/person.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysql/post_data.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysql/delect.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysql/upload.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo.php" beforeDir="false" afterPath="$PROJECT_DIR$/demo.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysql/data.php" beforeDir="false" afterPath="$PROJECT_DIR$/mysql/data.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mysql/demo.txt" beforeDir="false" afterPath="$PROJECT_DIR$/mysql/demo.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysql/get_data.php" beforeDir="false" afterPath="$PROJECT_DIR$/mysql/get_data.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysql/order_by.php" beforeDir="false" afterPath="$PROJECT_DIR$/mysql/order_by.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysql/table.php" beforeDir="false" afterPath="$PROJECT_DIR$/mysql/table.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +68,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1602818242607</updated>
-      <workItem from="1602818244263" duration="16388000" />
+      <workItem from="1602818244263" duration="20742000" />
     </task>
     <task id="LOCAL-00001" summary="mysqli">
       <created>1602820320520</created>
@@ -134,10 +129,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="519" y="234" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1602821393890" />
-    <state x="743" y="499" key="NewPhpFileDialog" timestamp="1602833489032">
+    <state x="743" y="499" key="NewPhpFileDialog" timestamp="1602848129565">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="743" y="499" key="NewPhpFileDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1602833489032" />
+    <state x="743" y="499" key="NewPhpFileDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1602848129565" />
     <state x="461" y="164" key="SettingsEditor" timestamp="1602819599171">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -146,17 +141,23 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="623" y="316" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1602820865993" />
-    <state x="860" y="550" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1602820293161">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="2780" y="550" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1602836623357">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="860" y="550" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1602820293161" />
+    <state x="2780" y="550" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1602836623357" />
     <state x="63" y="1" width="1021" height="685" key="dock-window-1" timestamp="1602833806682">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="63" y="1" width="1021" height="685" key="dock-window-1/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1602833806682" />
-    <state x="753" y="162" width="1021" height="685" key="dock-window-2" timestamp="1602834256269">
+    <state x="88" y="117" width="1021" height="685" key="dock-window-2" timestamp="1602848100515">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state x="88" y="117" width="1021" height="685" key="dock-window-2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1602848100515" />
     <state x="753" y="162" width="1021" height="685" key="dock-window-2/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1602834256269" />
+    <state x="271" y="0" width="1665" height="733" key="dock-window-3" timestamp="1602848819822">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="271" y="0" width="1665" height="733" key="dock-window-3/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1602848819822" />
   </component>
 </project>
