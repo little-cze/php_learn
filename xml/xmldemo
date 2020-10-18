@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<root id="root">
+  <person>
+      <name>root</name>
+      <!--    XML属性-->
+      <file type="git">com.git</file>
+      <dengshancheng>dengshancheng</dengshancheng>
+  </person>
+    <person>
+        <name>root</name>
+        <!--    XML属性-->
+        <file type="git">com.git</file>
+        <dengshancheng>dengshancheng</dengshancheng>
+    </person>
+</root>

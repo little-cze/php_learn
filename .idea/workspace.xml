@@ -23,10 +23,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="21e445bd-4e26-415b-ae81-4128bf05bd68" name="Default Changelist" comment="mysqli">
-      <change afterPath="$PROJECT_DIR$/mysql/delect.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysql/upload.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xml/catalog.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xml/note.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xml/simple.xsl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysql/demo.txt" beforeDir="false" afterPath="$PROJECT_DIR$/mysql/demo.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php7/closure.php" beforeDir="false" afterPath="$PROJECT_DIR$/php7/closure.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php7/combination_comparison_operator.php" beforeDir="false" afterPath="$PROJECT_DIR$/php7/combination_comparison_operator.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php7/const_type.php" beforeDir="false" afterPath="$PROJECT_DIR$/php7/const_type.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php7/define.php" beforeDir="false" afterPath="$PROJECT_DIR$/php7/define.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php7/intdiv.php" beforeDir="false" afterPath="$PROJECT_DIR$/php7/intdiv.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php7/new_class.php" beforeDir="false" afterPath="$PROJECT_DIR$/php7/new_class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php7/null.php" beforeDir="false" afterPath="$PROJECT_DIR$/php7/null.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/some_interface/traversable.php" beforeDir="false" afterPath="$PROJECT_DIR$/some_interface/traversable.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xml/xml_expat.php" beforeDir="false" afterPath="$PROJECT_DIR$/xml/xml_expat.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xml/xmldemo" beforeDir="false" afterPath="$PROJECT_DIR$/xml/xmldemo" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +51,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="XHTML File" />
+        <option value="HTML4 File" />
       </list>
     </option>
   </component>
@@ -52,13 +65,20 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="DefaultHtmlFileTemplate" value="HTML4 File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/xml" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="php.override.implement.member.chooser.php.doc" value="NONE" />
     <property name="settings.editor.selected.configurable" value="project.propDebugger" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\dashboard\xml" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -69,6 +89,8 @@
       <option name="presentableId" value="Default" />
       <updated>1602818242607</updated>
       <workItem from="1602818244263" duration="20742000" />
+      <workItem from="1602899449208" duration="24290000" />
+      <workItem from="1602986324865" duration="2813000" />
     </task>
     <task id="LOCAL-00001" summary="mysqli">
       <created>1602820320520</created>
@@ -91,7 +113,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602820501234</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="mysqli">
+      <created>1602905001973</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1602905001973</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -107,6 +136,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="mysqli" />
@@ -125,14 +155,29 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="748" y="306" key="#Web_Browsers/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1602819630187" />
-    <state x="519" y="234" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1602821393890">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="2439" y="234" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1602925606076">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="519" y="234" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1602821393890" />
-    <state x="743" y="499" key="NewPhpFileDialog" timestamp="1602848129565">
+    <state x="2439" y="234" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1602925606076" />
+    <state x="696" y="320" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1602988207183">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state x="696" y="320" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1602988207183" />
+    <state x="2616" y="320" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1602926750892" />
+    <state x="2681" y="200" key="#com.intellij.ide.util.MemberChooser" timestamp="1602921669601">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2681" y="200" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1602921669601" />
+    <state x="2986" y="367" key="FileChooserDialogImpl" timestamp="1602986343222">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2986" y="367" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1602986343222" />
+    <state x="2663" y="499" key="NewPhpFileDialog" timestamp="1602924631075">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
     <state x="743" y="499" key="NewPhpFileDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1602848129565" />
+    <state x="2663" y="499" key="NewPhpFileDialog/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1602924631075" />
     <state x="461" y="164" key="SettingsEditor" timestamp="1602819599171">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -146,18 +191,27 @@
     </state>
     <state x="860" y="550" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1602820293161" />
     <state x="2780" y="550" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1602836623357" />
-    <state x="63" y="1" width="1021" height="685" key="dock-window-1" timestamp="1602833806682">
+    <state x="177" y="0" width="1660" height="727" key="dock-window-1" timestamp="1602900668146">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="63" y="1" width="1021" height="685" key="dock-window-1/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1602833806682" />
-    <state x="88" y="117" width="1021" height="685" key="dock-window-2" timestamp="1602848100515">
+    <state x="177" y="0" width="1660" height="727" key="dock-window-1/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1602900668146" />
+    <state x="0" y="0" width="1660" height="727" key="dock-window-2" timestamp="1602900773707">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="88" y="117" width="1021" height="685" key="dock-window-2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1602848100515" />
-    <state x="753" y="162" width="1021" height="685" key="dock-window-2/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1602834256269" />
-    <state x="271" y="0" width="1665" height="733" key="dock-window-3" timestamp="1602848819822">
+    <state x="0" y="0" width="1660" height="727" key="dock-window-2/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1602900773707" />
+    <state x="193" y="38" width="1660" height="727" key="dock-window-3" timestamp="1602900856047">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="271" y="0" width="1665" height="733" key="dock-window-3/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1602848819822" />
+    <state x="193" y="38" width="1660" height="727" key="dock-window-3/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1602900856047" />
+    <state x="276" y="0" width="1660" height="727" key="dock-window-4" timestamp="1602903259599">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="276" y="0" width="1660" height="727" key="dock-window-4/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1602903259599" />
+    <state x="2543" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1602922924950">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2543" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1602922924950" />
   </component>
 </project>
