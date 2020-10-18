@@ -11,7 +11,7 @@ class Number{
      
 };
 function test(){
-    echo 'test',__LINE__;
+    echo 'test.xml',__LINE__;
 }
 echo 'twoproject',"<br>";
 } 

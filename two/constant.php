@@ -21,7 +21,7 @@ class foo {
     const test = 'foobar!foo';
 }
 
-$const = 'test';
+$const = 'test.xml';
 
 var_dump(constant('bar::'. $const)); // string(7) "foobar!"
 var_dump(constant('foo::'. $const)); // string(7) "foobar!"

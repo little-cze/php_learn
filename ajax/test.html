@@ -1,10 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
+    <meta charset="UTF-8">
+    <title>AjaxDemo</title>
+    <script>
+        function showMessage(str){
+            if(str == ""){
+                document.getElementById("txtHint").innerHTML = "";
+                return 0;
+            }
+            if (window.XMLHttpRequest){
+                xmlhttp = new XMLHttpRequest();
+            }else{
+                xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");
+            }
+            xmlhttp.onreadystatechange = function (){
+                if(xmlhttp.readyState == 4 && xmlhttp.status == 200){
+                    document.getElementById("txtHint").innerHTML = xmlhttp.responseText;
+                }
+            }
+            xmlhttp.open("GET","first.php?q="+str,true);
+            xmlhttp.send();
+        }
+    </script>
 </head>
 <body>
-$END$
+<form>
+    <select name="users" id="users" onchange="showMessage(this.value)">
+        <option value="">选择一个网站：</option>
+        <option value="1">Google</option>
+        <option value="2">淘宝</option>
+        <option value="3">facebook</option>
+    </select>
+</form>
+<div id="txtHint"></div>
 </body>
 </html>
