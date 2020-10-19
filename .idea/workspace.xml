@@ -23,15 +23,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="21e445bd-4e26-415b-ae81-4128bf05bd68" name="Default Changelist" comment="xml">
+      <change afterPath="$PROJECT_DIR$/laravel/public/admin/add.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/webServers.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ajax/first.php" beforeDir="false" afterPath="$PROJECT_DIR$/ajax/first.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ajax/mysql_test.php" beforeDir="false" afterPath="$PROJECT_DIR$/ajax/mysql_test.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ajax/test.html" beforeDir="false" afterPath="$PROJECT_DIR$/ajax/test.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ajax/use_mysql.php" beforeDir="false" afterPath="$PROJECT_DIR$/ajax/use_mysql.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/two/constant.php" beforeDir="false" afterPath="$PROJECT_DIR$/two/constant.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/two/namespace.php" beforeDir="false" afterPath="$PROJECT_DIR$/two/namespace.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xml/simple_xml.php" beforeDir="false" afterPath="$PROJECT_DIR$/xml/simple_xml.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xml/xml_expat.php" beforeDir="false" afterPath="$PROJECT_DIR$/xml/xml_expat.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,6 +46,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="org" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1iwUeJ6YIY7gF2glGr8pVI9Lmwv" />
@@ -66,7 +66,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/xml" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="php.override.implement.member.chooser.php.doc" value="NONE" />
-    <property name="settings.editor.selected.configurable" value="project.propDebugger" />
+    <property name="settings.editor.selected.configurable" value="web.server" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -84,7 +84,11 @@
       <updated>1602818242607</updated>
       <workItem from="1602818244263" duration="20742000" />
       <workItem from="1602899449208" duration="24290000" />
-      <workItem from="1602986324865" duration="13101000" />
+      <workItem from="1602986324865" duration="13990000" />
+      <workItem from="1603005700034" duration="1292000" />
+      <workItem from="1603066357580" duration="2667000" />
+      <workItem from="1603073115945" duration="5637000" />
+      <workItem from="1603081906637" duration="15426000" />
     </task>
     <task id="LOCAL-00001" summary="mysqli">
       <created>1602820320520</created>
@@ -121,7 +125,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602989181058</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="xml">
+      <created>1603003660056</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1603003660056</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -157,10 +168,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="748" y="306" key="#Web_Browsers/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1602819630187" />
-    <state x="2439" y="234" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1602925606076">
-      <screen x="1920" y="0" width="1920" height="1040" />
+    <state x="519" y="234" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1603109006967">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="519" y="234" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1602821393890" />
+    <state x="519" y="234" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1603109006967" />
     <state x="2439" y="234" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1602925606076" />
     <state x="2616" y="320" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1602990102244">
       <screen x="1920" y="0" width="1920" height="1040" />
@@ -175,29 +186,34 @@
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2986" y="367" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1602986343222" />
-    <state x="2663" y="499" key="NewPhpFileDialog" timestamp="1603000040765">
+    <state x="917" y="288" key="NewPhpClassDialog" timestamp="1603100308921">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="917" y="288" key="NewPhpClassDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1603100308921" />
+    <state x="743" y="499" key="NewPhpFileDialog" timestamp="1603100313704">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="743" y="499" key="NewPhpFileDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1603100313704" />
+    <state x="2663" y="499" key="NewPhpFileDialog/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1603000040765" />
+    <state x="870" y="167" key="SettingsEditor" timestamp="1603106861907">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="870" y="167" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1603106861907" />
+    <state x="2543" y="316" key="Vcs.Push.Dialog.v2" timestamp="1603003673971">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="743" y="499" key="NewPhpFileDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1602848129565" />
-    <state x="2663" y="499" key="NewPhpFileDialog/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1603000040765" />
-    <state x="461" y="164" key="SettingsEditor" timestamp="1602819599171">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="461" y="164" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1602819599171" />
-    <state x="623" y="316" key="Vcs.Push.Dialog.v2" timestamp="1602820865993">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
     <state x="623" y="316" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1602820865993" />
+    <state x="2543" y="316" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1603003673971" />
     <state x="2780" y="550" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1602836623357">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="860" y="550" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1602820293161" />
     <state x="2780" y="550" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1602836623357" />
-    <state x="284" y="0" width="1652" height="1027" key="dock-window-1" timestamp="1603000271242">
+    <state x="0" y="0" width="988" height="980" key="dock-window-1" timestamp="1603108228363">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="63" y="1" width="1021" height="685" key="dock-window-1/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1602833806682" />
-    <state x="284" y="0" width="1652" height="1027" key="dock-window-1/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1603000271242" />
+    <state x="0" y="0" width="988" height="980" key="dock-window-1/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1603108228363" />
+    <state x="1931" y="248" width="1652" height="1027" key="dock-window-1/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1603005680847" />
     <state x="0" y="0" width="1660" height="727" key="dock-window-2" timestamp="1602900773707">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -211,9 +227,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="276" y="0" width="1660" height="727" key="dock-window-4/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1602903259599" />
-    <state x="2543" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1602999242923">
-      <screen x="1920" y="0" width="1920" height="1040" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1603077914874">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="2543" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1602999242923" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1603077914874" />
+    <state x="2543" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1603074849591" />
   </component>
 </project>
