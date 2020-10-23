@@ -17,7 +17,7 @@ class TestController extends Controller
     public function add(){
         //定义关联操作的表
        $result = DB::table("member") -> insert([
-           'id' => 121123 ,
+           'id' => 109 ,
             'firstname' => '马冬梅',
             'age' => '19',
             'email' => 'dongmei@qq.com'
@@ -26,7 +26,7 @@ class TestController extends Controller
 
        $db = DB::table('member');
       $back = $db -> insertGetId([
-          'id' => 132 ,
+          'id' => 110 ,
           'firstname' => '马冬梅',
           'age' => '19',
           'email' => 'dongmei@qq.com'

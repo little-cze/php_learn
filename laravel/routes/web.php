@@ -14,13 +14,23 @@ use App\Http\Controllers\HomeController;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+
+    $date = date('Y-m-d H:i:s',time());
+    $day = "日";
+    $time = strtotime('+1 year');
+    $list = [
+        '1'=>'1',
+        '2'=>'2',
+        '3'=>'3',
+    ];
+    return view('welcome',compact('date','day','time','list'));
 });
 Route::group(['prefix'=>'admin'],function(){
     Route::get("/add",[\App\Http\Controllers\TestController::class,'add']);
     Route::get("/del",[\App\Http\Controllers\TestController::class,'del']);
     Route::get("/update",[\App\Http\Controllers\TestController::class,'update']);
     Route::get("/select",[\App\Http\Controllers\TestController::class,'select']);
+    Route::post("/test2",[\App\Http\Controllers\TestController::class,'test2']) ->name('testPage');
 });
 
 Route::get('admin/home',[HomeController::class,'info']);

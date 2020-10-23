@@ -9,9 +9,27 @@
     <link rel="stylesheet" href="../css/app.css">
 </head>
 <body>
-<div id="app">
+{{--路径需要从views开始写--}}
+@extends('parent')
 
+{{--模板继承--}}
+@section('main')
+<div id="app">
+    现在是：{{$date}},今天是星期{{$day}}<br>
+    一年之后的时间是：{{date('Y-m-d H:i:s'),$time}}
+    <form action="admin/select" method="any">
+        <button type="submit" value="submit">
+            submit
+        </button>
+    </form>
+    @foreach($list as $key =>$val)
+        {{$val}}<br>
+    @endforeach
 </div>
+@endsection
+
+{{--文件的包含--}}
+@include('home')
 </body>
 
 </html>
