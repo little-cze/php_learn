@@ -55,3 +55,13 @@ Route::get('home',function (){
     return view('home');
 });
 
+//模型的增删改查
+
+Route::get('home/add',[\App\Http\Controllers\ModelController::class,'add']);
+Route::any('home/test',[\App\Http\Controllers\ModelController::class,'test']);
+Route::get('home/del',[\App\Http\Controllers\ModelController::class,'del']);
+Route::get('home/update',[\App\Http\Controllers\ModelController::class,'update']);
+Route::get('home/select',[\App\Http\Controllers\ModelController::class,'select']);
+
+//自动验证。
+Route::any('home/demo',[\App\Http\Controllers\ModelController::class,'demo']);

@@ -30,6 +30,16 @@
 
 {{--文件的包含--}}
 @include('home')
+
+<form action="home/test">
+    @csrf
+    ID: <input type="text" name="id" value="">
+    姓名：<input type="text" name="firstname" value="">
+    年龄：<input type="text" name="age" value="">
+    邮箱：<input type="email" name="email" value="">
+    <input type="submit" value="submit">
+</form>
+
 </body>
 
 </html>

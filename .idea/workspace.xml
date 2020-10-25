@@ -22,13 +22,15 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="21e445bd-4e26-415b-ae81-4128bf05bd68" name="Default Changelist" comment="使用mysql">
-      <change afterPath="$PROJECT_DIR$/laravel/resources/views/parent.blade.php" afterDir="false" />
+    <list default="true" id="21e445bd-4e26-415b-ae81-4128bf05bd68" name="Default Changelist" comment="router">
+      <change afterPath="$PROJECT_DIR$/laravel/app/Api/api.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel/app/Http/Controllers/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/laravel/app/Http/Controllers/HomeController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/laravel/app/Http/Controllers/TestController.php" beforeDir="false" afterPath="$PROJECT_DIR$/laravel/app/Http/Controllers/TestController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/laravel/app/Http/Middleware/VerifyCsrfToken.php" beforeDir="false" afterPath="$PROJECT_DIR$/laravel/app/Http/Middleware/VerifyCsrfToken.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/laravel/resources/views/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/laravel/resources/views/home.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel/frontend/babel.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/laravel/frontend/babel.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel/frontend/src/views/Home.vue" beforeDir="false" afterPath="$PROJECT_DIR$/laravel/frontend/src/views/Home.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/laravel/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/laravel/resources/views/welcome.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/laravel/routes/api.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/laravel/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/laravel/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -36,7 +38,7 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings">
+  <component name="ComposerSettings" doNotAsk="true">
     <pharConfigPath>$PROJECT_DIR$/laravel/composer.json</pharConfigPath>
     <execution />
   </component>
@@ -181,10 +183,11 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/xml" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="php.override.implement.member.chooser.php.doc" value="NONE" />
     <property name="settings.editor.selected.configurable" value="web.server" />
+    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\PhpStorm 2020.2.2\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -208,6 +211,7 @@
       <workItem from="1603073115945" duration="5637000" />
       <workItem from="1603081906637" duration="16112000" />
       <workItem from="1603328548130" duration="25674000" />
+      <workItem from="1603412175955" duration="22571000" />
     </task>
     <task id="LOCAL-00001" summary="mysqli">
       <created>1602820320520</created>
@@ -265,7 +269,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603353841191</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="router">
+      <created>1603412199273</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1603412199273</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -288,7 +299,8 @@
     <MESSAGE value="xml" />
     <MESSAGE value="laravel 框架" />
     <MESSAGE value="使用mysql" />
-    <option name="LAST_COMMIT_MESSAGE" value="使用mysql" />
+    <MESSAGE value="router" />
+    <option name="LAST_COMMIT_MESSAGE" value="router" />
   </component>
   <component name="WindowStateProjectService">
     <state x="653" y="156" key="#PHP" timestamp="1602819199759">
@@ -313,18 +325,19 @@
     </state>
     <state x="696" y="320" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1602988207183" />
     <state x="2616" y="320" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1602990102244" />
-    <state x="2681" y="200" key="#com.intellij.ide.util.MemberChooser" timestamp="1602921669601">
+    <state x="2681" y="200" key="#com.intellij.ide.util.MemberChooser" timestamp="1603418116769">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="2681" y="200" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1602921669601" />
+    <state x="2681" y="200" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1603418116769" />
     <state x="2610" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1603347706633">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2610" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1603347706633" />
-    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog" timestamp="1603366462924">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="2012" y="92" width="1736" height="856" key="DiffContextDialog" timestamp="1603418130189">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="92" y="92" width="1736" height="856" key="DiffContextDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1603366462924" />
+    <state x="2012" y="92" width="1736" height="856" key="DiffContextDialog/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1603418130189" />
     <state x="2986" y="367" key="FileChooserDialogImpl" timestamp="1602986343222">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
@@ -333,30 +346,30 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="917" y="288" key="NewPhpClassDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1603100308921" />
-    <state x="743" y="499" key="NewPhpFileDialog" timestamp="1603351189521">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="2663" y="499" key="NewPhpFileDialog" timestamp="1603450340127">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="743" y="499" key="NewPhpFileDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1603351189521" />
-    <state x="2663" y="499" key="NewPhpFileDialog/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1603000040765" />
+    <state x="2663" y="499" key="NewPhpFileDialog/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1603450340127" />
     <state x="870" y="167" key="SettingsEditor" timestamp="1603106861907">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="870" y="167" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1603106861907" />
-    <state x="623" y="316" key="Vcs.Push.Dialog.v2" timestamp="1603353851861">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="2543" y="316" key="Vcs.Push.Dialog.v2" timestamp="1603412207222">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="623" y="316" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1603353851861" />
-    <state x="2543" y="316" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1603003673971" />
+    <state x="2543" y="316" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1603412207222" />
     <state x="2780" y="550" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1602836623357">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="860" y="550" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1602820293161" />
     <state x="2780" y="550" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1602836623357" />
-    <state x="933" y="63" width="982" height="761" key="dock-window-1" timestamp="1603328935832">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="2711" y="117" width="1299" height="764" key="dock-window-1" timestamp="1603543938870">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="0" y="0" width="988" height="980" key="dock-window-1/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1603108228363" />
-    <state x="933" y="63" width="982" height="761" key="dock-window-1/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1603328935832" />
+    <state x="2711" y="117" width="1299" height="764" key="dock-window-1/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1603543938870" />
     <state x="0" y="0" width="1660" height="727" key="dock-window-2" timestamp="1602900773707">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -374,10 +387,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="820" y="310" key="refactoring.ChangeSignatureDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1603352789609" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1603356994782">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="2543" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1603544044575">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1603356994782" />
-    <state x="2543" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1603331482678" />
+    <state x="2543" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1603544044575" />
   </component>
 </project>

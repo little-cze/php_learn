@@ -4,9 +4,14 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
-
+///引入模型
+///1.直接像使用DB门面一样的操作方式：以调用静态方法为主的方式，该形式下模型不需要实例化，例如：member::get()
+/// 2.实例化模型然后再去使用模型类。$model = new Member();$model->get();
+///
+use App\Models\Member;
 class TestController extends Controller
 {
+
     //
     public function test1(){
         phpinfo();
@@ -67,4 +72,5 @@ var_dump($result);
       echo $data5;
       echo $data6;
     }
+
 }
